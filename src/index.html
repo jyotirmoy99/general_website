@@ -1,309 +1,603 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLEDZ</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/index.css">
-    <script src="https://kit.fontawesome.com/c373d4590e.js" crossorigin="anonymous"></script>
-    <script src="./jquery-2.2.4.js"></script>
-  </head>
-  <body>
-    <div id="navbar">
-      <div id="navleft">
-        <img src="../static/logo14.png">
-      </div>
-      <div id="navtiles">
-        <p><a href="#product">Product</a></p>
-        <p><a href="#tech">Technology</a></p>
-        <p><a href="#ab">About Us</a></p>
-        <p><a href="#teamcontent">Who we are?</a></p>
-      </div>
-      <div id="navright1">
-        <img class="navrightimg" src="navright1.png">
-        <img id="lastimg" class="navrightimg" src="cross.jpg">
-      </div>
-    </div>
-    <div id="sidenavbar">
-      <a href="#product"><p class="sidenav">Product</p></a>
-      <a href="#tech"><p class="sidenav">Technology</p></a>
-      <a href="#ab"><p class="sidenav">About Us</p></a>
-      <a href="#blogsection"><p class="sidenav">Blogs</p></a>
-      <a href="#teamcontent"><p class="sidenav">Who we are?</p></a>
-      <button id="darkbtn">Dark Mode</button>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLEDZ</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="https://kit.fontawesome.com/c373d4590e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid p-0 ">
+      <!-- Navbar start -->
+      <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#"><img src="../static/logo.svg">&nbsp; &nbsp; Bledz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tech">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Who we are?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar End -->
     </div>
 
+
+    <!-- <div id="navbar">
+    <div id="navleft">
+      <img src="../static/logo14.png">
+    </div>
+    <div id="navtiles">
+      <p><a href="#product">Product</a></p>
+      <p><a href="#tech">Technology</a></p>
+      <p><a href="#ab">About Us</a></p>
+      <p><a href="#teamcontent">Who we are?</a></p>
+    </div>
+    <div id="navright1">
+      <img class="navrightimg" src="navright1.png">
+      <img id="lastimg" class="navrightimg" src="cross.jpg">
+    </div>
+  </div>
+  <div id="sidenavbar">
+    <a href="#product">
+      <p class="sidenav">Product</p>
+    </a>
+    <a href="#tech">
+      <p class="sidenav">Technology</p>
+    </a>
+    <a href="#ab">
+      <p class="sidenav">About Us</p>
+    </a>
+    <a href="#blogsection">
+      <p class="sidenav">Blogs</p>
+    </a>
+    <a href="#teamcontent">
+      <p class="sidenav">Who we are?</p>
+    </a>
+    <button id="darkbtn">Dark Mode</button>
+  </div> -->
+
     <!-- HOME SECTION -->
-    <div id="home">
-      <div id="homeleft">
-        <h3>Things that are never seen or done before are geting done by AI</h3>
+    <!-- <div class="home">
+      <div class="homeleft">
+        <h3>Things that are never seen or done before are getting done by AI</h3>
         <h1>EVOLVING THE FASHION INDUSTRY</h1>
         <p>Join the revolution or be left behind</p>
       </div>
-      <div id="homeright">
-        <div id="phone"><img src="../static/smart_mirror.svg"></div>
+      <div class="homeright">
+        <div class="phone"><img src="../static/smart_mirror.svg"></div>
+      </div>
+    </div> -->
+
+
+
+    <!-- NEW HOME SECTION -->
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <h3>Things that are never seen or done before are getting done by AI</h3>
+          <h1>EVOLVING THE FASHION INDUSTRY</h1>
+          <p>Join the revolution or be left behind</p>
+        </div>
+
+        <div class="col-md-5 col-sm-12 h-25">
+          <img src="../static/smart_mirror.svg" alt="smart mirror" />
+        </div>
       </div>
     </div>
 
 
+
+  </header>
+
+
+  <main>
+
     <!-- PRODUCT SECTION -->
-    <div id="product">
-      <div id="productleft">
-        <h4>FEATRUED PRODUCTS</h4>
-        <h2>WORLD CLASS FASHION</h2>
-        <div id="productcards">
-          <div id="productcard1" class="productcard">
-            <h3>Hairstyle Recommendation</h3>
-            <p>Predict uses AI to tell you what is in your images, videos or text. Capture data about the physical world through images. Our APIs support the most common formats.</p>
-          </div>
-          <div class="productcard">
-            <h3>Fashion Helper</h3>
-            <p>Predict uses AI to tell you what is in your images, videos or text. Capture data about the physical world through images. Our APIs support the most common formats.</p>
-          </div>
-          <div class="productcard">
-            <h3>Smart Mirror</h3>
-            <p>Predict uses AI to tell you what is in your images, videos or text. Capture data about the physical world through images. Our APIs support the most common formats.</p>
+
+    <div class="section-1">
+      <div class="container text-center">
+        <div id="product">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="productleft">
+                <h4>PRODUCTS</h4>
+                <h2>WORLD CLASS FASHION</h2>
+                <div id="productcards">
+                  <div id="productcard1" class="productcard">
+                    <h3>Hairstyle Recommendation</h3>
+                    <p>Predict uses AI to tell you what is in your images, videos or text. Capture data about the
+                      physical
+                      world
+                      through images. Our APIs support the most common formats.</p>
+                  </div>
+                  <div class="productcard">
+                    <h3>Fashion Helper</h3>
+                    <p>Predict uses AI to tell you what is in your images, videos or text. Capture data about the
+                      physical
+                      world
+                      through images. Our APIs support the most common formats.</p>
+                  </div>
+                  <div class="productcard">
+                    <h3>Smart Mirror</h3>
+                    <p>Predict uses AI to tell you what is in your images, videos or text. Capture data about the
+                      physical
+                      world
+                      through images. Our APIs support the most common formats.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="productright">
+                <img src="../static/product1.jpg" class="img-fluid">
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div id="productright">
-        <img src="../static/product1.jpg">
       </div>
     </div>
 
 
     <!-- DOWNLOADS SECTION -->
-    <section class="section-3 container-fluid p-0 text-center">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <h1>Download Our App For All Platforms</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              consequatur amet vero, facere iure quos dolor tempora repellendus
-              eligendi sint aperiam dolorem, ipsam suscipit repellat, at quae
-              voluptate voluptates. Distinctio!
-            </p>
-          </div>
-        </div>
-        <div class="platform row">
-          <div class="col-md-6 col-sm-12 text-right">
-            <div class="desktop shadow-lg">
-              <div class="d-flex flex-row justify-content-center">
-                <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
-                <div class="text text-left">
-                  <h3 class="p-1 m-0">IOS</h3>
-                  <p class="p-0 m-0">On Apple Store</p>
+    <section class="section-2 container-fluid p-5 text-center">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h1>Download Our App For All Platforms</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            consequatur amet vero, facere iure quos dolor tempora repellendus
+            eligendi sint aperiam dolorem, ipsam suscipit repellat, at quae
+            voluptate voluptates. Distinctio!
+          </p>
+          <div class="platform row">
+            <div class="col-md-6 col-sm-12 text-right">
+              <div class="desktop btn shadow-lg">
+                <div class="d-flex flex-row justify-content-center">
+                  <i class="fab fa-apple fa-3x py-2 pr-3"></i>
+                  <div class="text text-left">
+                    <h3 class="p-1 m-0">IOS</h3>
+                    <p class="p-0 m-0">On Apple Store</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 text-left">
+              <div class="desktop btn shadow-lg">
+                <div class="d-flex flex-row justify-content-center">
+                  <i class="fab fa-android fa-3x py-2 pr-3"></i>
+                  <div class="text text-left">
+                    <h3 class="p-1 m-0">Android</h3>
+                    <p class="p-0 m-0">On Play Store</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12 text-left">
-            <div class="desktop shadow-lg">
-              <div class="d-flex flex-row justify-content-center">
-                <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
-                <div class="text text-left">
-                  <h3 class="p-1 m-0">Android</h3>
-                  <p class="p-0 m-0">On Play Store</p>
-                </div>
-              </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="../static/iphone.png" class="img-fluid">
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- TECHNOLOGY SECTION -->
+
+    <section class="section-3 container-fluid" id="tech">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tech">
+
+            <h1 class="text-center">TECHNOLOGY USED</h1>
+
+            <div class="techstack">
+              <img src="../static/tech/android.png">
+              <img src="../static/tech/flutter.webp">
+              <img src="../static/tech/ios.png">
+              <img src="../static/tech/react-native.png">
+              <img src="../static/tech/sass.png">
             </div>
           </div>
         </div>
-      </section>
-
-
-
-      <!-- TECHNOLOGY SECTION -->
-      <div id="tech">
-        <center><h1>TECHNOLOGY USED</h1></center>
-        <div id="techstack">
-          <img src="../static/t1.png">
-          <img src="../static/t2.png">
-          <img src="../static/t1.png">
-          <img src="../static/t2.png">
-          <img src="../static/t1.png">
-          <img src="../static/t2.png">
-          <img src="../static/t1.png">
-          <img src="../static/t2.png">
-        </div>
-    </div>
+      </div>
+    </section>
 
 
 
     <!-- ABOUT US SECTION -->
-    <div id="abcontent">
-      <div id="ab">
-        <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, officia qui quaerat sint veritatis quibusdam reiciendis enim fugit praesentium laudantium.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta tempora esse nulla numquam ad enim? Necessitatibus nam eveniet, architecto facilis ipsam, officia mollitia iste inventore adipisci quod maiores voluptates? Dolorem laudantium asperiores soluta facilis repellat odit doloremque fugit nobis minima et praesentium, eaque facere, accusantium eligendi a, dolor assumenda tempora?</p>
+
+
+    <section class="section-4 container-fluid text-center" id="aboutus">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">About Us</h1>
+          <div class="row">
+            <div class="col-md-6 pt-5 text-left">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, officia qui quaerat sint veritatis
+                quibusdam reiciendis enim fugit praesentium laudantium.</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta tempora esse nulla numquam ad enim?
+                Necessitatibus nam eveniet, architecto facilis ipsam, officia mollitia iste inventore adipisci quod
+                maiores
+                voluptates? Dolorem laudantium asperiores soluta facilis repellat odit doloremque fugit nobis minima et
+                praesentium, eaque facere, accusantium eligendi a, dolor assumenda tempora?</p>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
 
 
     <!-- TEAM SECTION -->
-    <div id="team">
-      <h1>Who we are?</h1>
-      <div id="teamcontent">
-        <div class="teamcard">
-          <img src="../static/team1.jpg">
-          <p>ALEXANDER ISORA</p>
-          <p>Founder</p>
-          <p>Alexander is passionate about web, tech and the startup industry.</p>
-          <div class="socialicons">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-          </div>
-        </div>
-        <div class="teamcard">
-          <img src="../static/team2.jpg">
-          <p>ALEXANDER ISORA</p>
-          <p>Founder</p>
-          <p>Alexander is passionate about web, tech and the startup industry.</p>
-          <div class="socialicons">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-          </div>
-        </div>
-        <div class="teamcard">
-          <img src="../static/team3.jpg">
-          <p>ALEXANDER ISORA</p>
-          <p>Founder</p>
-          <p>Alexander is passionate about web, tech and the startup industry.</p>
-          <div class="socialicons">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-          </div>
-        </div>
-        <div class="teamcard">
-          <img src="../static/team4.jpg">
-          <p>ALEXANDER ISORA</p>
-          <p>Founder</p>
-          <p>Alexander is passionate about web, tech and the startup industry.</p>
-          <div class="socialicons">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-          </div>
-        </div>
-        <div class="teamcard">
-          <img src="../static/team5.jpg">
-          <p>ALEXANDER ISORA</p>
-          <p>Founder</p>
-          <p>Alexander is passionate about web, tech and the startup industry.</p>
-          <div class="socialicons">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-          </div>
-        </div>
-        <div class="teamcard">
-          <img src="../static/team6.jpg">
-          <p>ALEXANDER ISORA</p>
-          <p>Founder</p>
-          <p>Alexander is passionate about web, tech and the startup industry.</p>
-          <div class="socialicons">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-          </div>
-        </div>
-        <div class="teamcard">
-          <img src="../static/team7.jpg">
-          <p>ALEXANDER ISORA</p>
-          <p>Founder</p>
-          <p>Alexander is passionate about web, tech and the startup industry.</p>
-          <div class="socialicons">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-          </div>
-        </div>
-      </div>
-    </div>
 
-
-
-    <!-- JOIN US SECTION -->
-    <div id="joinus">
-      <div style="height:3px; width: 98.7vw; background-color: gray;"></div>
-      <button id="joinbtn">JOIN US</button>
-      <div id="joinushidden">
-        <div id="joinform">
-          <h1>Drop us a message</h1>
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
-          <input type="tel" placeholder="Phone Number">
-          <textarea placeholder="Message"></textarea>
-          <button id="joinbtn1">Send Message</button>
-        </div>
-      </div>
-    </div>
-
-
-
-    <!-- BLOGS SECTION -->
-    <div id="blogs">
-      <h1>AMAZING ARTICLE BELOW</h1>
-    </div>
-
-
-
-    <!-- FOOTER SECTION -->
-    <footer>
-      <div class="container-fluid p-0">
-        <div class="row text-left">
-          <div class="col-md-5 col-md-5">
-            <p class="text-muted">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione,
-              dolore!
-            </p>
-            <p class="pt-4 text-muted">
-              Copyright &copy;2020 All rights reserved |
-              <span>JmB Creation</span>
-            </p>
-          </div>
-          <div class="col-md-5">
-            <h4 class="text-light">Contact Us</h4>
-            <p class="text-muted">Stay Updated</p>
-            <form class="form-inline">
-              <div class="col pl-0">
-                <div class="input-group pr-5">
-                  <input
-                    type="text"
-                    class="form-control bg-dark text-white"
-                    placeholder="Email"
-                  />
-                  <div class="input-group-prepend">
-                    <button class="input-group-text">
-                      <i class="fas fa-arrow-right"></i>
-                    </button>
-                  </div>
+    <section class="section-5 container-fluid text-center" id="team">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="team">
+            <h1>Who we are?</h1>
+            <div class="teamcontent">
+              <div class="teamcard">
+                <img src="../static/team1.jpg" class="img-fluid">
+                <p>ALEXANDER ISORA</p>
+                <p>Founder</p>
+                <p>Alexander is passionate about web, tech and the startup industry.</p>
+                <div class="socialicons">
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-github"></i>
                 </div>
               </div>
-            </form>
-          </div>
-          <div class="col-md-2">
-            <h4 class="text-light">Follow Us</h4>
-            <p class="text-muted">Let us be social</p>
-            <div class="column">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-youtube"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-twitter"></i>
+              <div class="teamcard">
+                <img src="../static/team2.jpg" class="img-fluid">
+                <p>ALEXANDER ISORA</p>
+                <p>Founder</p>
+                <p>Alexander is passionate about web, tech and the startup industry.</p>
+                <div class="socialicons">
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-github"></i>
+                </div>
+              </div>
+              <div class="teamcard">
+                <img src="../static/team3.jpg" class="img-fluid">
+                <p>ALEXANDER ISORA</p>
+                <p>Founder</p>
+                <p>Alexander is passionate about web, tech and the startup industry.</p>
+                <div class="socialicons">
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-github"></i>
+                </div>
+              </div>
+              <div class="teamcard">
+                <img src="../static/team4.jpg" class="img-fluid">
+                <p>ALEXANDER ISORA</p>
+                <p>Founder</p>
+                <p>Alexander is passionate about web, tech and the startup industry.</p>
+                <div class="socialicons">
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-github"></i>
+                </div>
+              </div>
+              <div class="teamcard">
+                <img src="../static/team5.jpg" class="img-fluid">
+                <p>ALEXANDER ISORA</p>
+                <p>Founder</p>
+                <p>Alexander is passionate about web, tech and the startup industry.</p>
+                <div class="socialicons">
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-github"></i>
+                </div>
+              </div>
+              <div class="teamcard">
+                <img src="../static/team6.jpg" class="img-fluid">
+                <p>ALEXANDER ISORA</p>
+                <p>Founder</p>
+                <p>Alexander is passionate about web, tech and the startup industry.</p>
+                <div class="socialicons">
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-github"></i>
+                </div>
+              </div>
+              <div class="teamcard">
+                <img src="../static/team7.jpg" class="img-fluid">
+                <p>ALEXANDER ISORA</p>
+                <p>Founder</p>
+                <p>Alexander is passionate about web, tech and the startup industry.</p>
+                <div class="socialicons">
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-github"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <script src="../js/index.js"></script>
-  </body>
+    </section>
+
+
+
+    <!-- JOIN US SECTION -->
+
+    <section class="section-6 container-fluid text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <button type="button" class="btn btn-primary px-5 py-2" data-toggle="modal" data-target="#exampleModal"
+            data-whatever="@getbootstrap">Join Us</button>
+
+          <!-- Model Start -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Drop us a message</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="name" class="col-form-label">Name:</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="col-form-label">Email:</label>
+                      <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="phone" class="col-form-label">Phone:</label>
+                      <input type="text" class="form-control" id="phone">
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label">Message:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <label for="attachment" class="col-form-label">Attach your CV:</label>
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label" for="customFile">Choose file:</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary px-5 py-2 btn-block">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Model End -->
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- BLOGS SECTION -->
+    <section class="section-7 container-fluid text-center p-0" id="blog">
+      <div class="cover">
+        <div class="content text-center">
+          <h1>Amazing Articles given below</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Assumenda, porro.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blogs">
+      <div class="container pt-5">
+        <h4 class="blogs">Blogs</h4>
+        <hr>
+        <div id="filters" class="button-group text-right pb-5">
+          <button class="btn is-checked" data-filter="*">All Posts</button>
+          <button class="btn" data-filter=".Technology">Technology</button>
+          <button class="btn" data-filter=".Design">Design</button>
+          <button class="btn" data-filter=".Marketing">Marketing</button>
+        </div>
+        <div class="row">
+          <div class="col-md-9 p-5">
+            <div class="card-columns">
+              <div class="card">
+                <img class="card-img-top" src="../static/ai_mirror.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">AI Smart Mirror</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quaerat.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../static/design2.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Top 5 Best Designing Softwares
+                  </h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, mollitia.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../static/design1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">UX Designs</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, delectus.
+                  </p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../static/marketing1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Marketing Tips
+                  </h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, mollitia.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../static/design2.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Top 5 Best Designing Softwares
+                  </h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, mollitia.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../static/design2.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Top 5 Best Designing Softwares
+                  </h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, mollitia.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 pt-5">
+
+            <!-- LATEST POST START -->
+
+            <h5>Latest Posts</h5>
+
+            <!-- List group start -->
+            <div class="list-group pt-4">
+              <a href="#" class="list-group-item list-group-item-action bg-light ">
+                <div class="d-flex w-100 justify-content-between">
+                  <img src="../static/ai_mirror.png" class="img-fluid list-img">
+                  <h6 class="pr-4 pt-2">AI Smart Mirror</h6>
+                </div>
+                <small class="text-muted pl-5">Donec id elit non mi porta.</small>
+              </a><br>
+              <a href="#" class="list-group-item list-group-item-action bg-light ">
+                <div class="d-flex w-100 justify-content-between">
+                  <img src="../static/design1.jpg" class="img-fluid list-img">
+                  <h6 class="pr-4 pt-2">UX Designs</h6>
+                </div>
+                <small class="text-muted pl-5">Lorem ipsum dolor sit amet.</small>
+              </a><br>
+              <a href="#" class="list-group-item list-group-item-action bg-light ">
+                <div class="d-flex w-100 justify-content-between">
+                  <img src="../static/marketing1.jpg" class="img-fluid list-img">
+                  <h6 class="pr-4 pt-2">Marketing Tips</h6>
+                </div>
+                <small class="text-muted pl-5">Lorem ipsum dolor sit amet.</small>
+              </a><br>
+            </div>
+            <!-- List group end -->
+            <!-- LATEST POST START -->
+
+            <!-- <h5>Popular Tags</h5> -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <!-- FOOTER SECTION -->
+  <footer>
+    <div class="container-fluid p-0">
+      <div class="row text-left">
+        <div class="col-md-5 col-md-5">
+          <p class="text-muted">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione,
+            dolore!
+          </p>
+          <p class="pt-4 text-muted">
+            Copyright &copy;2020 All rights reserved | <span> Designed by
+              Bledz</span>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <h4 class="text-light">Contact Us</h4>
+          <p class="text-muted">Stay Updated</p>
+          <form class="form-inline">
+            <div class="col pl-0">
+              <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white" placeholder="Email" />
+                <div class="input-group-prepend">
+                  <button class="input-group-text">
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2">
+          <h4 class="text-light">Follow Us</h4>
+          <p class="text-muted">Let us be social</p>
+          <div class="column">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/product.js"></script>
+  <script src="../js/main.js"></script>
+
+  <!-- Bootstrap Javascript CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <!-- isotope plugin cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+    integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
