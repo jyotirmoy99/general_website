@@ -1,4 +1,4 @@
-#replace maximum ids into classes
+#replaced maximum ids into classes
 
 #commented some important codes which can be reused later
 
